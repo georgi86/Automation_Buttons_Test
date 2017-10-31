@@ -1,11 +1,1 @@
-D:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\bin\Debug\CheckButtons.rxtmg
-D:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\bin\Debug\CheckButtons.rxtst
-D:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\bin\Debug\CheckButtons.exe.config
-D:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\bin\Debug\CheckButtons.exe
-D:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\bin\Debug\CheckButtons.pdb
-D:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\obj\x86\Debug\CheckButtons.csprojResolveAssemblyReference.cache
-D:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\obj\x86\Debug\CheckButtons.exe
-D:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\obj\x86\Debug\CheckButtons.pdb
 D:\Joro\GIT_Automations\AutomationButtons\CheckButtons\CheckButtons\bin\Debug\CheckButtons.exe.config
-D:\Joro\GIT_Automations\AutomationButtons\CheckButtons\CheckButtons\obj\x86\Debug\CheckButtons.exe
-D:\Joro\GIT_Automations\AutomationButtons\CheckButtons\CheckButtons\obj\x86\Debug\CheckButtons.pdb
