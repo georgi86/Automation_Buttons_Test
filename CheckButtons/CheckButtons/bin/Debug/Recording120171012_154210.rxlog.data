@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6c16e70b977280"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/12/2017 15:42:12"
+		timestampiso="2017-10-12T12:42:12"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.105"
+			timeRelativeToTestModuleStartTime="00:00.105"
+			timeWallClock="15:42:12"
+			time="00:00.105"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='') on item 'SnapXUntitled.SetInitialState'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//button[@controlid='1479']"
+				fullname="CheckButtonsRepository.SnapXUntitled.SetInitialState"
+				id="8db8d9fbeacc4fca854c505986cae479"
+				timeout="60000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="82"
+				itemindex="51"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.976"
+			timeRelativeToTestModuleStartTime="00:02.976"
+			timeWallClock="15:42:15"
+			time="00:02.976"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'CheckButtonsRepository.SnapXUntitled.SetInitialState' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//button[@controlid='1479']"
+				fullname="CheckButtonsRepository.SnapXUntitled.SetInitialState"
+				id="8db8d9fbeacc4fca854c505986cae479"
+				timeout="60000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="51">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.080"
+			timeRelativeToTestModuleStartTime="00:03.080"
+			timeWallClock="15:42:15"
+			time="00:03.080"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.NewRoutineButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='57600' and @text='New']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.NewRoutineButton"
+				id="f0d00427ee8b4fc9ab6a79e54954edda"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="86"
+				itemindex="52"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.306"
+			timeRelativeToTestModuleStartTime="00:05.306"
+			timeWallClock="15:42:18"
+			time="00:05.306"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.NewRoutineButton' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='57600' and @text='New']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.NewRoutineButton"
+				id="f0d00427ee8b4fc9ab6a79e54954edda"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="52">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.411"
+			timeRelativeToTestModuleStartTime="00:05.411"
+			timeWallClock="15:42:18"
+			time="00:05.411"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='New') on item 'SnapXUntitled.ToolBar59392.NewRoutineButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='57600' and @text='New']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.NewRoutineButton"
+				id="f0d00427ee8b4fc9ab6a79e54954edda"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="90"
+				itemindex="53"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.244"
+			timeRelativeToTestModuleStartTime="00:07.244"
+			timeWallClock="15:42:20"
+			time="00:07.244"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.NewRoutineButton' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='57600' and @text='New']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.NewRoutineButton"
+				id="f0d00427ee8b4fc9ab6a79e54954edda"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="53">
+			</metainfo>
+		</item>
+	</activity>
+</report>

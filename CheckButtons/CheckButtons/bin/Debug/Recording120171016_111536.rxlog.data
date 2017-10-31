@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="140725bf6b059ef0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/16/2017 11:15:38"
+		timestampiso="2017-10-16T08:15:38"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Attribute 'Enabled' of element for item 'CheckButtonsRepository.SnapXUntitled.GoToInitialState' does not match the specified value (actual='False', expected='True').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.134"
+			timeRelativeToTestModuleStartTime="00:00.134"
+			timeWallClock="11:15:38"
+			time="00:00.134"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.GOButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//element/container/button[@controlid='3167']"
+				fullname="CheckButtonsRepository.SnapXUntitled.GOButton"
+				id="b2786b3edfa84e0991b2cde61475125b"
+				timeout="60000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="82"
+				itemindex="47"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.879"
+			timeRelativeToTestModuleStartTime="00:03.879"
+			timeWallClock="11:15:42"
+			time="00:03.879"
+			level="Success"
+			category="Validation"
+			errimg=".\Recordin_81676d6b_5771b88a_trace.jpg"
+			errthumb=".\Recordin_81676d6b_5771b88a_trace_thumb.jpg">
+			<message>
+				Attribute 'Enabled' of element for item 'CheckButtonsRepository.SnapXUntitled.GOButton' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//element/container/button[@controlid='3167']"
+				fullname="CheckButtonsRepository.SnapXUntitled.GOButton"
+				id="b2786b3edfa84e0991b2cde61475125b"
+				timeout="60000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="47">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.885"
+			timeRelativeToTestModuleStartTime="00:03.885"
+			timeWallClock="11:15:42"
+			time="00:03.885"
+			level="Info"
+			category="Validation"
+			errimg=".\Recordin_81676d6b_5771b88a_trace.jpg"
+			errthumb=".\Recordin_81676d6b_5771b88a_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.GoToInitialState'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//button[@controlid='4232']"
+				fullname="CheckButtonsRepository.SnapXUntitled.GoToInitialState"
+				id="f1e81995a6dd41a7b6f72206ab9ee7c3"
+				timeout="60000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="86"
+				itemindex="48"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.990"
+			timeRelativeToTestModuleStartTime="00:05.990"
+			timeWallClock="11:15:44"
+			time="00:05.990"
+			level="Failure"
+			category="Validation"
+			errimg=".\Recordin_81676d6b_7346fa0c_trace.jpg"
+			errthumb=".\Recordin_81676d6b_7346fa0c_trace_thumb.jpg">
+			<message>
+				Attribute 'Enabled' of element for item 'CheckButtonsRepository.SnapXUntitled.GoToInitialState' does not match the specified value (actual='False', expected='True').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//button[@controlid='4232']"
+				fullname="CheckButtonsRepository.SnapXUntitled.GoToInitialState"
+				id="f1e81995a6dd41a7b6f72206ab9ee7c3"
+				timeout="60000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="87"
+				loglvl="Failure"
+				itemindex="48">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.994"
+			timeRelativeToTestModuleStartTime="00:05.994"
+			timeWallClock="11:15:44"
+			time="00:05.994"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_81676d6b_7346fa0c_trace.jpg"
+			errthumb=".\Recordin_81676d6b_7346fa0c_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Enabled' of element for item 'CheckButtonsRepository.SnapXUntitled.GoToInitialState' does not match the specified value (actual='False', expected='True').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at CheckButtons.Recording1.Ranorex.Core.Testing.ITestModule.Run() in d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs:line 87
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Boolean skipIteration)"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="87"
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//button[@controlid='4232']"
+				fullname="CheckButtonsRepository.SnapXUntitled.GoToInitialState"
+				id="f1e81995a6dd41a7b6f72206ab9ee7c3"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="48">
+			</metainfo>
+		</item>
+	</activity>
+</report>

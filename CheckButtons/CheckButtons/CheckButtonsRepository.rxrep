@@ -1,0 +1,938 @@
+﻿<repository
+id="33aafcb8-0f12-4f19-866d-eda8a0127ef4"
+name="CheckButtonsRepository"
+rxversion="7.0">
+	<codegen
+	classname="CheckButtonsRepository"
+	namespace="CheckButtons">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b62cddde-66f3-4030-b2bc-126235be41b6"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="73c97277-1b23-4dcf-8410-23c795886148"
+		isrooted="True"
+		name="SnapXUntitled"
+		refpath="/form[@title='Snap-X - [Untitled]']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="toolbar,nativewindow"
+			capname="toolbar"
+			id="fd05aeb4-0415-4e6b-b4e9-a5682212c383"
+			isrooted="True"
+			name="ToolBar59392"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="91e2b1e3-57ea-4172-8933-69943071ae83"
+				name="Crosshair"
+				refimgid="d08cc534-722c-4331-9776-4112e2a89dc2"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5009']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="3e1449b8-240d-470e-ab98-2383c45e06b0"
+				name="Box"
+				refimgid="263c0c45-d8e9-478f-9d54-577eda3af933"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5011']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="8eb5496c-cc02-41ef-870f-3b17cfbf159c"
+				name="Circle"
+				refimgid="4c6433e9-e036-48ea-a844-7da78d82f63f"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5012']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="d63f42bf-0d90-4b5e-82ea-547030d7142e"
+				name="Protractor"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5013']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="089f0b31-08f5-4d9e-8af9-37ff6f09d373"
+				name="DoubleCircle"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5066']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="8a72ff02-cbf9-433a-b78e-3ee93b89c75b"
+				name="MicroGage"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5010']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="bf950904-2bf2-40bd-a793-234ba588fe1d"
+				name="RadiusChart"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5016']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="be478e67-5351-4f6f-952c-1addd74f7e5a"
+				name="GridChart"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5017']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="026211e8-f0ca-4bc1-881e-f1fb8f96ece2"
+				name="CombinationChart"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5015']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="e29bc39c-8edf-498b-b03d-d65025a2b207"
+				name="Multiple"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5014']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="507b22f7-4c06-4352-93ca-cf745617778b"
+				name="PointEntry"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5005']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="033bb766-b73d-4e5f-a254-718f5c4f6687"
+				name="Focus"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5006']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="404bfa02-3cc0-4664-ad0b-9d368515e9e7"
+				name="DatumOrigin"
+				refimgid="6e9977ad-2480-45dc-86b4-7fe65510b894"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59649']/container[@controlid='59648']/toolbar[@controlid='59392' and @class='ToolbarWindow32' and @instance='5']/button[@commandid='5046']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5046']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="0aa55d2d-e581-4d35-b59d-815b0bcd0617"
+				name="DatumAlign"
+				refimgid="f9151be2-d063-4315-b7bb-5b61eb54e0fd"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59649']/container[@controlid='59648']/toolbar[@controlid='59392' and @class='ToolbarWindow32' and @instance='5']/button[@commandid='5047']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5047']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="73d355ac-30f4-4728-9a76-63d21c78374d"
+				name="DatumRecall"
+				refimgid="9b734004-626b-49c4-be9c-fdb61d2bb98d"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59649']/container[@controlid='59648']/toolbar[@controlid='59392' and @class='ToolbarWindow32' and @instance='5']/button[@commandid='5079']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5079']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="4cddf791-97e8-40a2-a3ea-8ba2d087efa2"
+				name="AutoCorrelation"
+				refimgid="def65a7d-488d-4aa8-8145-aa0c529c0dea"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5107']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="f0d00427-ee8b-4fc9-ab6a-79e54954edda"
+				name="NewRoutineButton"
+				refimgid="c5bc5266-789a-4911-a641-a5330d674dd6"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='57600' and @text='New']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="aad9f7f3-956e-4354-86de-f1c0828eee0f"
+				name="AutoIDSearch"
+				refimgid="762c7107-b440-4a74-9b65-b493ecd57425"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5113' and @text='AutoID']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="66ec9700-c040-42a4-a1b8-187926d1cdfb"
+				name="OpenRoutine"
+				refimgid="72bdfe4e-83a6-48a8-880e-c70862262565"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='57601' and @text='Open']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="15e70956-bf46-42e8-910c-209347e36cc3"
+				name="AutoIDRun"
+				refimgid="c80cd4c3-1356-4feb-b0b9-dfebcf106f12"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='AutoID Run' and @commandid='5109']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="646c6352-1cf3-4de9-a5ce-df4bb62c1f0a"
+				name="SwitchToFFW"
+				refimgid="7f440d93-54eb-4fbe-9113-4c26530bd3e9"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='40028']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="2aa1df2e-ff63-41c3-8ed2-7e611545f8b1"
+				name="OpenImage"
+				refimgid="08117da5-f6ff-4075-8f63-a573c09849ba"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Open Image' and @commandid='32902']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="d2e2c228-efe5-4904-b609-e25f04efbdc0"
+				name="SaveImage"
+				refimgid="3baf1f15-5f96-414d-bae0-9d59352c87f5"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Save Image' and @commandid='32903']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="73360b25-fd2e-48d9-bfb0-a0f2266c173b"
+				name="SaveImageAndTarget"
+				refimgid="d8cd49d9-b9f3-469e-89aa-9e499a97fa72"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Save Image and Target' and @commandid='32904']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="56e98f0f-9c9a-4985-ab4f-d5ebcf771496"
+				name="SaveFullScreen"
+				refimgid="ca4f4de1-c5e3-427f-9cbe-40eef7591d09"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Save Full Screen' and @commandid='32905']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="e958f7a2-aebd-4848-8e50-364c0f6744dd"
+				name="PrintImage"
+				refimgid="7f268bb0-23d3-45c7-9183-517da8322db8"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Image' and @commandid='32906']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="94f90240-3b2a-4b33-89f0-250ed0de52f2"
+				name="PrintImageAndTarget"
+				refimgid="143b1ee8-c022-4b13-8a2f-8c0d4a4d1102"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Image and Target' and @commandid='32907']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="1c715d7f-cb6f-4d35-a90c-9bce9d19834c"
+				name="PrintFullScreen"
+				refimgid="db1c361c-95ab-4204-88f5-a31083d06a76"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Full Screen' and @commandid='32908']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="b5b398a9-c272-4cbf-9dc9-d8ea5de73285"
+				name="TargetColor"
+				refimgid="3412868a-44ac-43b7-80b6-537a9c9b7713"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='32899' and @text='Target Color']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="525833f2-c7f6-44a6-b323-88426ad4ea5d"
+				name="ZoomOut"
+				refimgid="7460e491-fcc4-40d6-9131-6058be82dd29"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Zoom Out' and @commandid='32896']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="8b7a4b6c-1263-4473-b892-998ae9499854"
+				name="ButtonLow"
+				refimgid="056f335b-3608-47f2-9594-281e41f8ceaf"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='32902']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="c585e329-b7b0-4f47-b146-c4c17039a8aa"
+				name="High"
+				refimgid="70c183e5-c906-4e8e-a187-b145acf3dfb7"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='32902']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="8ee1802f-f012-4a3b-8447-94f64f4f2a7e"
+				name="ZoomIn"
+				refimgid="a8055ff7-e5fb-45ad-a202-5a7400ad0acd"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Zoom In' and @commandid='32895']
+				</item>
+				<item
+				addcaps="text,nativewindow"
+				capname="text"
+				id="32393e8b-427b-4587-8227-b28900d8a281"
+				name="Text33212"
+				refimgid="eb643aa9-1c7d-4e2e-b855-7bc8bc09370d"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59648']/toolbar[@controlid='59392']/text[@controlid='33212']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/text[@controlid='33212']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="b927a40e-d28c-41f7-be40-b3cef2777347"
+				name="ImageColor"
+				refimgid="57fe840a-3081-4ce5-843a-17a139bd8691"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Image Color' and @commandid='32897']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="49dafcb6-85a0-4536-a585-fbdf19900921"
+				name="DisplayModelOverlay"
+				refimgid="0f095e36-0bf9-4dd5-9bc5-2e1eb44093a7"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40052']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='40052']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="48709825-653e-46e4-aa44-eccd30f033d6"
+				name="DisplayLabelsAll"
+				refimgid="53250507-3a43-480f-a155-f453f1ec04e7"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40068']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='40068']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="65960839-3344-49df-853c-89dc660afb4b"
+				name="DisplayLabels"
+				refimgid="b318ac8a-8d89-4067-971a-64b645a8766b"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40066']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='40066']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="662aeffc-c54f-4efc-8079-269d154591b7"
+				name="DisplayLablesPrintSelected"
+				refimgid="43b06b2a-806b-4e06-a78c-94f78fd3aeb5"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40067']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='40067']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="8c5469a7-ece0-4fd3-9d24-acd7e7df7272"
+				name="DisplayLabelsToleranced"
+				refimgid="ae6d8e08-63c3-42d7-894d-72e78b548cd5"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40069']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='40069']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="c7e77c54-578c-4288-a312-f1ca52aa12e3"
+				name="Actuals"
+				refimgid="e71f2001-7714-468d-8f0f-1509e9fea7e1"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='33064']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='33064']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="5109aeb1-1a4f-49f1-987c-27776c0b4db8"
+				name="Nominals"
+				refimgid="4263f102-4b04-487e-9bf6-7572a6361a9f"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='33065']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='33065']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="beaefd68-9d77-4893-90b6-521586ceaf61"
+				name="Points"
+				refimgid="6e50f2fa-5fd2-468f-81f9-a8f7a70fb484"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='33066']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='33066']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="b9c46f76-0408-47db-866b-83640ef9da79"
+				name="ShowCAD"
+				refimgid="63d279b1-7ba8-42b4-9c8c-d3356c05eccc"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='33067']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='33067']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="7907b889-4130-4203-9b8f-8a94be8db13f"
+				name="ShowHiddenFeatures"
+				refimgid="27436c8a-e2f4-4a26-83b0-b1081a90eaad"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='33068']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='33068']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="f8973450-bdec-4b3b-bf55-d0d5fbdbc2e1"
+				name="FixtureMask"
+				refimgid="32c8a27e-f256-4cea-84a6-c09c3685af8f"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40161']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='40161']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="2771b447-f691-48dc-add9-9e8c3269ae03"
+				name="CreateFixtureMask"
+				refimgid="bb19af99-b990-4d73-b08a-51eb35e15dfb"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40162']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='40162']
+				</item>
+				<basepath>
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="toolbar,nativewindow"
+			capname="toolbar"
+			id="32c68979-7dca-4b66-b507-f94d0258078b"
+			isrooted="True"
+			name="ToolBar593921"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="91c6c435-e3d2-4492-b68c-ecf3db199573"
+				name="AverageWeekEdge"
+				refimgid="1c7c2691-4db2-4152-b5d9-022b95598276"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5061']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="8b6462a5-2e2b-406d-9915-8e32b5e0b845"
+				name="MinimumWeekEdge"
+				refimgid="17dd5c39-1c4d-419e-9d46-a6bab739446b"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5062']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="e6ee154e-2b64-4414-8cc9-1009b31ecb01"
+				name="FeatureFinder"
+				refimgid="e6f91e98-dfa5-4ab8-ad91-fc9300c896cf"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5064']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="551a82c6-fa35-4c4e-baf1-a2501eced22b"
+				name="MaximumWeekEdge"
+				refimgid="30e80521-dd5b-4e40-8570-9cf1305a34cf"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5063']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="8ca0fe93-0dc6-4805-9871-7d9548a6e30e"
+				name="Contour"
+				refimgid="fb9ec010-0b78-4d98-85a0-f96d598df34d"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5065']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="997526e1-5ab0-41d8-82ff-acaf85e1dea3"
+				name="StrongEdge"
+				refimgid="2c60faad-c09e-4cd2-84a6-5346b61bff44"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5059']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="79eb7a7f-d1ee-4ca1-abcd-92ef1c72aab1"
+				name="Centroid"
+				refimgid="4d156688-4b6a-45df-8fd8-13e63160582a"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5004']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="2799d28b-6545-4483-8fb3-cc71ead46b71"
+				name="AdvancedCentroid"
+				refimgid="310805cb-596f-4255-95bf-88453fc092ac"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5008']
+				</item>
+				<basepath>
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="toolbar,nativewindow"
+			capname="toolbar"
+			id="060f5748-dc38-4326-a0ad-9350fb94b334"
+			isrooted="True"
+			name="ToolBar593922"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="754d2987-ff4c-4b3a-aed9-9a0407ce1b6e"
+				name="MeasurePoint"
+				refimgid="d411dca3-9e6a-4a99-af3f-8e7cfb4c70d3"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5026']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="72d1931b-b609-4dbe-af56-060a19187ccf"
+				name="MeasureLine"
+				refimgid="d0feeb32-707a-42ef-893f-7bb3e909c7b9"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5027']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="037a164f-fcf4-4339-9b67-2a84d438ad55"
+				name="MeasureCircle"
+				refimgid="910d7b74-2921-4f93-b221-18e7c7b253bf"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5028']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="2f7f12d7-3397-4418-9207-f8ceb9942541"
+				name="MeasureMidpoint"
+				refimgid="8b4d368f-14b1-4c01-9cb7-197eb56ba45d"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5030']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="130e78a5-091f-4ff8-9760-bcf35dd1426b"
+				name="MeasureDistance"
+				refimgid="7c1d63a7-550d-4775-9b3e-7b80ffcb90e8"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5029']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="479fd023-8182-4e99-a450-baccf8abf3b5"
+				name="MeasureCentroid"
+				refimgid="52a2837e-7b90-4ff0-b281-50c1ca3f732a"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5071']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="c2188839-c565-4dad-ad63-6ab3f247af31"
+				name="MeasureContour"
+				refimgid="02c76399-7171-403e-898a-9f7231dd45ec"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5067']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="d148dcc4-8894-4d25-86d8-3ad583c38edd"
+				name="MeasureMinMaxAvg"
+				refimgid="ff56341a-9601-47a1-8b33-cdd046375ab0"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5031']
+				</item>
+				<basepath>
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="toolbar,nativewindow"
+			capname="toolbar"
+			id="06e8dd24-52f6-46cf-8233-d997a03f898e"
+			isrooted="True"
+			name="ToolBar593923"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="aee7a352-0e95-41c0-a8ee-aea66d5252cf"
+				name="ConstructPoint"
+				refimgid="180eaa65-2a84-4436-a0ea-cd67c2490f42"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5035' and @text='Construct Point']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="31351da0-dc87-4818-bb4b-812b0ef11a64"
+				name="ConstructCircle"
+				refimgid="88de9bdf-5d52-4a3b-99f8-6c133f256fb3"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5037']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="0ffe2b27-5ef9-4b46-8f56-0f872fb6e0b3"
+				name="ConstructWidth"
+				refimgid="6b3c7445-711c-4ee6-a280-9156a7892a3e"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5038']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="31939cbb-996e-4e3d-acfa-2af05eb45352"
+				name="ConstructIntersection"
+				refimgid="b09846cd-2533-4c6f-b285-6a9a882cf962"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5039']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="8e7e1661-142c-4822-b95a-8bc8856d905e"
+				name="ConstructDistance"
+				refimgid="4ed3dcbb-4453-4c79-a380-d9d5fac647e4"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5040']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="f23fb8ee-18b6-4377-9507-250843469a61"
+				name="ConstructMath"
+				refimgid="c1f3ec3a-1cfc-47b0-934f-bcd0decb432d"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59649']/container[@controlid='59648']/toolbar[@controlid='59392' and @class='ToolbarWindow32' and @instance='4']/button[@commandid='5050']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5050']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="068bbca9-be22-4fd5-9591-a8f5a56f2220"
+				name="ConstructUserInput"
+				refimgid="e7aa507a-f117-41ac-91db-7846799ada39"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59649']/container[@controlid='59648']/toolbar[@controlid='59392' and @class='ToolbarWindow32' and @instance='4']/button[@commandid='5052']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5052']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="ea5568fd-a74a-4498-a366-d54d926aa335"
+				name="ConstructMidpoint"
+				refimgid="48adf636-2a91-4d5f-83b9-c57eabf08640"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59649']/container[@controlid='59648']/toolbar[@controlid='59392' and @class='ToolbarWindow32' and @instance='4']/button[@commandid='5041']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5041']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="ad7bf208-66d8-42fc-b61a-71e069e99221"
+				name="ConstructLine"
+				refimgid="b049b7bc-d947-4606-b4fe-f7f7ce3d2895"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59649']/container[@controlid='59648']/toolbar[@controlid='59392' and @class='ToolbarWindow32' and @instance='4']/button[@commandid='5036']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5036']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="b9d65f7f-a0b7-4ceb-a71d-fb411913a92f"
+				name="ConstructBranch"
+				refimgid="a8d1d890-0317-4ecd-9b49-f618c2530589"
+				refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59649']/container[@controlid='59648']/toolbar[@controlid='59392' and @class='ToolbarWindow32' and @instance='4']/button[@commandid='5051']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5051']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="e1ab4264-3ebf-4513-b2cb-d023b1ad4794"
+				name="ConstructMinMaxAvg"
+				refimgid="1df8eaf2-05c8-404a-88a8-66103a653806"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5042']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="28dd9569-1723-4517-89a5-8067c1d3fd46"
+				name="ConstructContour"
+				refimgid="47e21b4e-c140-4b0f-ac5e-34159f7cd99c"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5075']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="f40bc9db-065a-458a-966e-a2af63a332d9"
+				name="ConstructGageB_all"
+				refimgid="b91c1f85-4406-4275-aae7-9e35641ff43f"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5048']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="1699e9c2-329e-462b-afb8-8c398d2345e7"
+				name="ConstructGageDiameter"
+				refimgid="a331fa91-9f37-4b86-89d9-4b682f86a2a9"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='5049']
+				</item>
+				<basepath>
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="b2786b3e-dfa8-4e09-91b2-cde61475125b"
+			name="GOButton"
+			refimgid="5a2c39fa-6efb-43cf-b06e-9d01668670f5"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container/form//element/container/button[@controlid='3167']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="f1e81995-a6dd-41a7-b6f7-2206ab9ee7c3"
+			name="GoToInitialState"
+			refimgid="aae5286a-ede7-4441-95b0-76d18ed476ac"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container/form//button[@controlid='4232']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="8db8d9fb-eacc-4fca-854c-505986cae479"
+			name="SetInitialState"
+			refimgid="8024effc-d71d-4952-a92e-50b063d38ca5"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container/form//button[@controlid='1479']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="a4b21578-6caf-4243-823b-99e4f67c9779"
+			name="SomeButton"
+			refimgid="68820979-dd0e-4533-8341-9488feeed0f9"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container/form//element/container/button[@text='&gt;&gt;']
+			</item>
+			<folder
+			addcaps="container,nativewindow"
+			capname="container"
+			id="268eb2b6-6553-4250-8ef6-e2f3b995823c"
+			isrooted="True"
+			name="Container59649"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="b932b63a-d787-4bb7-aef8-e293ecb7289d"
+				name="Xbutton"
+				refimgid="b725560e-163f-4e8c-9283-272f7825378a"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//container/button[@controlid='1013']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="89e4c1ef-f7e0-4312-a7d6-07346b6a434a"
+				name="Ybutton"
+				refimgid="c3107732-1613-4b3e-808f-a593b106e4bd"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//container/button[@controlid='1014']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="872a65cf-5160-472e-90a5-1a2647c6e28a"
+				name="Zbutton"
+				refimgid="4bf22a38-544a-43f9-938a-79694d89e54b"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//container/button[@controlid='1015']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="88da02eb-6fbb-4bdb-a856-e534e7f03f47"
+				name="StartStopButton"
+				refimgid="88f4504f-316f-4596-877f-229070e1e1c6"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//container/button[@controlid='1016']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="f772472a-960e-4e2f-9ce2-304c11e06d23"
+				name="EnterButton"
+				refimgid="a5880bf2-c81f-4aed-b199-ea5d5c89698c"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//container/button[@controlid='1022']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="d3c717f9-93c2-4849-8a7e-f5b0939b03ee"
+				name="Align"
+				refimgid="d18f419d-a4a4-4ae8-ac2e-758c3830eb04"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//container/button[@controlid='1665']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="28aa092d-a96b-48d1-bb5e-5a8804b58135"
+				name="Units"
+				refimgid="9df41d44-cca9-42e9-a330-b0d07a6a0378"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//container/button[@controlid='1666']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="d0cf300e-54b8-4065-8bb0-3a42d4f3689d"
+				name="CoordinateSystem"
+				refimgid="b569d0d8-1ff5-4e9c-8e16-e6f9de197716"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//container/button[@controlid='1667']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="907b1f3d-1dd2-4f67-9c62-6dba1816eede"
+				name="MoveStage"
+				refimgid="d6021638-aedb-433b-be7f-ca35f9023d06"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container/form//container/button[@controlid='1668']
+				</item>
+				<basepath>
+					/form[@title='Snap-X - [Untitled]']/container/form//container
+				</basepath>
+			</folder>
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="c0bef1e3-7f69-4c91-93a9-08d987b00ede"
+			name="SnapXUntitled"
+			refimgid="79491187-eac7-4826-9aa1-dbdd6f04fac0"
+			refpath="/form[@title='Snap-X - [Untitled]']/titlebar[@accessiblerole='TitleBar']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<basepath>
+				/form[@title='Snap-X - [Untitled]']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVDhPjVM9SwNBEF2/EcUuaJLdvd1LqihY
+BBFtRPAfWKkgWNpZqKUpLARLCzEggk0gweQuKURtBCsFwcJGsRLsLAQFBRXju73R3MUoPnjs3bx5
+s7Ozd+wLTlxPukJX/+AGpX4jm0630SNjGcaaHaGvGhgNHa6O8n3JiMv1DLiF2IUj1BvZfRixgdmQ
+q1es7/67OnOEtVCWUpPVR4GxFojXISPR4foFG2TLItFP6Y1REno+ZESbnrEoZZRSfofL7TkkP9QK
+qMtiXA2S/AOFVKrdf4ikurFTsW7nnf1kssMkEA57e7twlGlwFwNfrXA9xPKcd2JAJ2GzXiePwZ6U
+NrrZRtFHrDnHshRJXttqM2gGD6qMNXmat0JfQuzZaNjImIKAQFfjs8jtAZK84pmghs7uSKohlICr
+orAB2p0N6h4xlx6SfaDqRygpbo2TxI7ZWCvOfRPUHZlIk+wDn+hauIh6Qmy5ErWlp9d3UeL2lDEG
+gaqjZrpC3QeT8X6L4qfBGOayQrbGcIWIlWLWiCv1hGFcDaOjxVoRlaPU/8ObBYz+P8LVOYUBxj4B
+q6oLt3Pkl98AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ec9da4e27c849e0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/16/2017 11:23:03"
+		timestampiso="2017-10-16T08:23:03"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.ButtonLow' does not match the specified value (actual='Open Image', expected='Low').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.091"
+			timeRelativeToTestModuleStartTime="00:00.091"
+			timeWallClock="11:23:03"
+			time="00:00.091"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Save Image') on item 'SnapXUntitled.ToolBar59392.SaveImage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Save Image' and @commandid='32903']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveImage"
+				id="d2e2c228efe54904b609e25f04efbdc0"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="82"
+				itemindex="74"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.870"
+			timeRelativeToTestModuleStartTime="00:02.870"
+			timeWallClock="11:23:06"
+			time="00:02.870"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveImage' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Save Image' and @commandid='32903']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveImage"
+				id="d2e2c228efe54904b609e25f04efbdc0"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="74">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.981"
+			timeRelativeToTestModuleStartTime="00:02.981"
+			timeWallClock="11:23:06"
+			time="00:02.981"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.SaveImageAndTarget'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Save Image and Target' and @commandid='32904']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveImageAndTarget"
+				id="73360b25fd2e48d9bfb0a0f2266c173b"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="86"
+				itemindex="75"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.697"
+			timeRelativeToTestModuleStartTime="00:04.697"
+			timeWallClock="11:23:08"
+			time="00:04.697"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveImageAndTarget' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Save Image and Target' and @commandid='32904']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveImageAndTarget"
+				id="73360b25fd2e48d9bfb0a0f2266c173b"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="75">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.801"
+			timeRelativeToTestModuleStartTime="00:04.801"
+			timeWallClock="11:23:08"
+			time="00:04.801"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Save Image and Target') on item 'SnapXUntitled.ToolBar59392.SaveImageAndTarget'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Save Image and Target' and @commandid='32904']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveImageAndTarget"
+				id="73360b25fd2e48d9bfb0a0f2266c173b"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="90"
+				itemindex="76"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.528"
+			timeRelativeToTestModuleStartTime="00:06.528"
+			timeWallClock="11:23:10"
+			time="00:06.528"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveImageAndTarget' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Save Image and Target' and @commandid='32904']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveImageAndTarget"
+				id="73360b25fd2e48d9bfb0a0f2266c173b"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="76">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.635"
+			timeRelativeToTestModuleStartTime="00:06.635"
+			timeWallClock="11:23:10"
+			time="00:06.635"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.SaveFullScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Save Full Screen' and @commandid='32905']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveFullScreen"
+				id="56e98f0f9c9a4985ab4fd5ebcf771496"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="94"
+				itemindex="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.532"
+			timeRelativeToTestModuleStartTime="00:08.532"
+			timeWallClock="11:23:12"
+			time="00:08.532"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveFullScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Save Full Screen' and @commandid='32905']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveFullScreen"
+				id="56e98f0f9c9a4985ab4fd5ebcf771496"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="77">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.637"
+			timeRelativeToTestModuleStartTime="00:08.637"
+			timeWallClock="11:23:12"
+			time="00:08.637"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Save Full Screen') on item 'SnapXUntitled.ToolBar59392.SaveFullScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Save Full Screen' and @commandid='32905']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveFullScreen"
+				id="56e98f0f9c9a4985ab4fd5ebcf771496"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="98"
+				itemindex="78"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.830"
+			timeRelativeToTestModuleStartTime="00:10.830"
+			timeWallClock="11:23:14"
+			time="00:10.830"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveFullScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Save Full Screen' and @commandid='32905']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.SaveFullScreen"
+				id="56e98f0f9c9a4985ab4fd5ebcf771496"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="78">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.947"
+			timeRelativeToTestModuleStartTime="00:10.947"
+			timeWallClock="11:23:14"
+			time="00:10.947"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.PrintImage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Image' and @commandid='32906']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintImage"
+				id="e958f7a2aebd48488e50364c0f6744dd"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="102"
+				itemindex="79"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.883"
+			timeRelativeToTestModuleStartTime="00:12.883"
+			timeWallClock="11:23:16"
+			time="00:12.883"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintImage' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Image' and @commandid='32906']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintImage"
+				id="e958f7a2aebd48488e50364c0f6744dd"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="103"
+				loglvl="Success"
+				itemindex="79">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.991"
+			timeRelativeToTestModuleStartTime="00:12.991"
+			timeWallClock="11:23:16"
+			time="00:12.991"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Print Image') on item 'SnapXUntitled.ToolBar59392.PrintImage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Image' and @commandid='32906']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintImage"
+				id="e958f7a2aebd48488e50364c0f6744dd"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="106"
+				itemindex="80"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.041"
+			timeRelativeToTestModuleStartTime="00:15.041"
+			timeWallClock="11:23:18"
+			time="00:15.041"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintImage' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Image' and @commandid='32906']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintImage"
+				id="e958f7a2aebd48488e50364c0f6744dd"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="107"
+				loglvl="Success"
+				itemindex="80">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.145"
+			timeRelativeToTestModuleStartTime="00:15.145"
+			timeWallClock="11:23:18"
+			time="00:15.145"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.PrintImageAndTarget'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Image and Target' and @commandid='32907']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintImageAndTarget"
+				id="94f902403b2a4b3389f0250ed0de52f2"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="110"
+				itemindex="81"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.423"
+			timeRelativeToTestModuleStartTime="00:17.423"
+			timeWallClock="11:23:21"
+			time="00:17.423"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintImageAndTarget' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Image and Target' and @commandid='32907']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintImageAndTarget"
+				id="94f902403b2a4b3389f0250ed0de52f2"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="111"
+				loglvl="Success"
+				itemindex="81">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.528"
+			timeRelativeToTestModuleStartTime="00:17.528"
+			timeWallClock="11:23:21"
+			time="00:17.528"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Print Image and Target') on item 'SnapXUntitled.ToolBar59392.PrintImageAndTarget'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Image and Target' and @commandid='32907']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintImageAndTarget"
+				id="94f902403b2a4b3389f0250ed0de52f2"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="114"
+				itemindex="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.683"
+			timeRelativeToTestModuleStartTime="00:19.683"
+			timeWallClock="11:23:23"
+			time="00:19.683"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintImageAndTarget' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Image and Target' and @commandid='32907']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintImageAndTarget"
+				id="94f902403b2a4b3389f0250ed0de52f2"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="115"
+				loglvl="Success"
+				itemindex="82">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.788"
+			timeRelativeToTestModuleStartTime="00:19.788"
+			timeWallClock="11:23:23"
+			time="00:19.788"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.PrintFullScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Full Screen' and @commandid='32908']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintFullScreen"
+				id="1c715d7fcb6f4d35a90c9bce9d19834c"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="118"
+				itemindex="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.265"
+			timeRelativeToTestModuleStartTime="00:21.265"
+			timeWallClock="11:23:25"
+			time="00:21.265"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintFullScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Full Screen' and @commandid='32908']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintFullScreen"
+				id="1c715d7fcb6f4d35a90c9bce9d19834c"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="119"
+				loglvl="Success"
+				itemindex="83">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.369"
+			timeRelativeToTestModuleStartTime="00:21.369"
+			timeWallClock="11:23:25"
+			time="00:21.369"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Print Full Screen') on item 'SnapXUntitled.ToolBar59392.PrintFullScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Full Screen' and @commandid='32908']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintFullScreen"
+				id="1c715d7fcb6f4d35a90c9bce9d19834c"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="122"
+				itemindex="84"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.598"
+			timeRelativeToTestModuleStartTime="00:23.598"
+			timeWallClock="11:23:27"
+			time="00:23.598"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintFullScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Print Full Screen' and @commandid='32908']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.PrintFullScreen"
+				id="1c715d7fcb6f4d35a90c9bce9d19834c"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="123"
+				loglvl="Success"
+				itemindex="84">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.703"
+			timeRelativeToTestModuleStartTime="00:23.703"
+			timeWallClock="11:23:27"
+			time="00:23.703"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.TargetColor'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='32899' and @text='Target Color']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.TargetColor"
+				id="b5b398a9c2724cbf9dc9d8ea5de73285"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="126"
+				itemindex="85"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.052"
+			timeRelativeToTestModuleStartTime="00:25.052"
+			timeWallClock="11:23:28"
+			time="00:25.052"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.TargetColor' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='32899' and @text='Target Color']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.TargetColor"
+				id="b5b398a9c2724cbf9dc9d8ea5de73285"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="127"
+				loglvl="Success"
+				itemindex="85">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.156"
+			timeRelativeToTestModuleStartTime="00:25.156"
+			timeWallClock="11:23:28"
+			time="00:25.156"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Target Color') on item 'SnapXUntitled.ToolBar59392.TargetColor'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='32899' and @text='Target Color']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.TargetColor"
+				id="b5b398a9c2724cbf9dc9d8ea5de73285"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="130"
+				itemindex="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.804"
+			timeRelativeToTestModuleStartTime="00:26.804"
+			timeWallClock="11:23:30"
+			time="00:26.804"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.TargetColor' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='32899' and @text='Target Color']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.TargetColor"
+				id="b5b398a9c2724cbf9dc9d8ea5de73285"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="131"
+				loglvl="Success"
+				itemindex="86">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.199"
+			timeRelativeToTestModuleStartTime="00:27.199"
+			timeWallClock="11:23:31"
+			time="00:27.199"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.ZoomOut'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Zoom Out' and @commandid='32896']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.ZoomOut"
+				id="525833f2c7f644a6b32388426ad4ea5d"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="134"
+				itemindex="87"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.686"
+			timeRelativeToTestModuleStartTime="00:28.686"
+			timeWallClock="11:23:32"
+			time="00:28.686"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.ZoomOut' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Zoom Out' and @commandid='32896']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.ZoomOut"
+				id="525833f2c7f644a6b32388426ad4ea5d"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="135"
+				loglvl="Success"
+				itemindex="87">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.788"
+			timeRelativeToTestModuleStartTime="00:28.788"
+			timeWallClock="11:23:32"
+			time="00:28.788"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Zoom Out') on item 'SnapXUntitled.ToolBar59392.ZoomOut'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Zoom Out' and @commandid='32896']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.ZoomOut"
+				id="525833f2c7f644a6b32388426ad4ea5d"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="138"
+				itemindex="88"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.698"
+			timeRelativeToTestModuleStartTime="00:30.698"
+			timeWallClock="11:23:34"
+			time="00:30.698"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.ZoomOut' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@text='Zoom Out' and @commandid='32896']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.ZoomOut"
+				id="525833f2c7f644a6b32388426ad4ea5d"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="139"
+				loglvl="Success"
+				itemindex="88">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.802"
+			timeRelativeToTestModuleStartTime="00:30.802"
+			timeWallClock="11:23:34"
+			time="00:30.802"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.ButtonLow'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='32902']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.ButtonLow"
+				id="8b7a4b6c12634473b892998ae9499854"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="142"
+				itemindex="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.160"
+			timeRelativeToTestModuleStartTime="00:32.160"
+			timeWallClock="11:23:35"
+			time="00:32.160"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.ButtonLow' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='32902']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.ButtonLow"
+				id="8b7a4b6c12634473b892998ae9499854"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="143"
+				loglvl="Success"
+				itemindex="89">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.264"
+			timeRelativeToTestModuleStartTime="00:32.264"
+			timeWallClock="11:23:36"
+			time="00:32.264"
+			level="Info"
+			category="Validation"
+			errimg=".\Recordin_de26843a_4384722f_trace.jpg"
+			errthumb=".\Recordin_de26843a_4384722f_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='Low') on item 'SnapXUntitled.ToolBar59392.ButtonLow'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='32902']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.ButtonLow"
+				id="8b7a4b6c12634473b892998ae9499854"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="146"
+				itemindex="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.862"
+			timeRelativeToTestModuleStartTime="00:33.862"
+			timeWallClock="11:23:37"
+			time="00:33.862"
+			level="Failure"
+			category="Validation"
+			errimg=".\Recordin_de26843a_ab81949e_trace.jpg"
+			errthumb=".\Recordin_de26843a_ab81949e_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.ButtonLow' does not match the specified value (actual='Open Image', expected='Low').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='32902']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.ButtonLow"
+				id="8b7a4b6c12634473b892998ae9499854"
+				timeout="90000"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="147"
+				loglvl="Failure"
+				itemindex="90">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.865"
+			timeRelativeToTestModuleStartTime="00:33.865"
+			timeWallClock="11:23:37"
+			time="00:33.865"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_de26843a_ab81949e_trace.jpg"
+			errthumb=".\Recordin_de26843a_ab81949e_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'CheckButtonsRepository.SnapXUntitled.ToolBar59392.ButtonLow' does not match the specified value (actual='Open Image', expected='Low').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at CheckButtons.Recording1.Ranorex.Core.Testing.ITestModule.Run() in d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs:line 147
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Boolean skipIteration)"
+				codefile="d:\Joro\AUTOMATION\TESTS\SnapX\RegressionButtons\CheckButtons\CheckButtons\Recording1.cs"
+				codeline="147"
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='32902']"
+				fullname="CheckButtonsRepository.SnapXUntitled.ToolBar59392.ButtonLow"
+				id="8b7a4b6c12634473b892998ae9499854"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="90">
+			</metainfo>
+		</item>
+	</activity>
+</report>

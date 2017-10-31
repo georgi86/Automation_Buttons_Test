@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="CheckButtons"
+      id="b2a71055-0b80-4337-a8fc-6f85c03d5f01"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="CheckButtons"
+      id="b2a71055-0b80-4337-a8fc-6f85c03d5f01"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
