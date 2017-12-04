@@ -180,373 +180,557 @@ namespace CheckButtons
                 Delay.Milliseconds(100);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(16)); }
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593921.Contour'.", repo.SnapXUntitled.ToolBar593921.ContourInfo, new RecordItemIndex(17));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593921.ContourInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593921.StrongEdge'.", repo.SnapXUntitled.ToolBar593921.StrongEdgeInfo, new RecordItemIndex(18));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593921.StrongEdgeInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593921.Centroid'.", repo.SnapXUntitled.ToolBar593921.CentroidInfo, new RecordItemIndex(19));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593921.CentroidInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593921.AdvancedCentroid'.", repo.SnapXUntitled.ToolBar593921.AdvancedCentroidInfo, new RecordItemIndex(20));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593921.AdvancedCentroidInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasurePoint'.", repo.SnapXUntitled.ToolBar593922.MeasurePointInfo, new RecordItemIndex(21));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasurePointInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureLine'.", repo.SnapXUntitled.ToolBar593922.MeasureLineInfo, new RecordItemIndex(22));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureLineInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureCircle'.", repo.SnapXUntitled.ToolBar593922.MeasureCircleInfo, new RecordItemIndex(23));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureCircleInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureMidpoint'.", repo.SnapXUntitled.ToolBar593922.MeasureMidpointInfo, new RecordItemIndex(24));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureMidpointInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureDistance'.", repo.SnapXUntitled.ToolBar593922.MeasureDistanceInfo, new RecordItemIndex(25));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureDistanceInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureCentroid'.", repo.SnapXUntitled.ToolBar593922.MeasureCentroidInfo, new RecordItemIndex(26));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureCentroidInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureCentroid'.", repo.SnapXUntitled.ToolBar593922.MeasureCentroidInfo, new RecordItemIndex(27));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureCentroidInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureContour'.", repo.SnapXUntitled.ToolBar593922.MeasureContourInfo, new RecordItemIndex(28));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureContourInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureMinMaxAvg'.", repo.SnapXUntitled.ToolBar593922.MeasureMinMaxAvgInfo, new RecordItemIndex(29));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureMinMaxAvgInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructIntersection'.", repo.SnapXUntitled.ToolBar593923.ConstructIntersectionInfo, new RecordItemIndex(30));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructIntersectionInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructWidth'.", repo.SnapXUntitled.ToolBar593923.ConstructWidthInfo, new RecordItemIndex(31));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructWidthInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructCircle'.", repo.SnapXUntitled.ToolBar593923.ConstructCircleInfo, new RecordItemIndex(32));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructCircleInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructPoint'.", repo.SnapXUntitled.ToolBar593923.ConstructPointInfo, new RecordItemIndex(33));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructPointInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructLine'.", repo.SnapXUntitled.ToolBar593923.ConstructLineInfo, new RecordItemIndex(34));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructLineInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructDistance'.", repo.SnapXUntitled.ToolBar593923.ConstructDistanceInfo, new RecordItemIndex(35));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructDistanceInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructMidpoint'.", repo.SnapXUntitled.ToolBar593923.ConstructMidpointInfo, new RecordItemIndex(36));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructMidpointInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructUserInput'.", repo.SnapXUntitled.ToolBar593923.ConstructUserInputInfo, new RecordItemIndex(37));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructUserInputInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructMath'.", repo.SnapXUntitled.ToolBar593923.ConstructMathInfo, new RecordItemIndex(38));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructMathInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructBranch'.", repo.SnapXUntitled.ToolBar593923.ConstructBranchInfo, new RecordItemIndex(39));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructBranchInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructMinMaxAvg'.", repo.SnapXUntitled.ToolBar593923.ConstructMinMaxAvgInfo, new RecordItemIndex(40));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructMinMaxAvgInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructContour'.", repo.SnapXUntitled.ToolBar593923.ConstructContourInfo, new RecordItemIndex(41));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructContourInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructGageB_all'.", repo.SnapXUntitled.ToolBar593923.ConstructGageB_allInfo, new RecordItemIndex(42));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructGageB_allInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructGageDiameter'.", repo.SnapXUntitled.ToolBar593923.ConstructGageDiameterInfo, new RecordItemIndex(43));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructGageDiameterInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DatumOrigin'.", repo.SnapXUntitled.ToolBar59392.DatumOriginInfo, new RecordItemIndex(44));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DatumOriginInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DatumAlign'.", repo.SnapXUntitled.ToolBar59392.DatumAlignInfo, new RecordItemIndex(45));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DatumAlignInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DatumRecall'.", repo.SnapXUntitled.ToolBar59392.DatumRecallInfo, new RecordItemIndex(46));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DatumRecallInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.AutoCorrelation'.", repo.SnapXUntitled.ToolBar59392.AutoCorrelationInfo, new RecordItemIndex(47));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.AutoCorrelationInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.GOButton'.", repo.SnapXUntitled.GOButtonInfo, new RecordItemIndex(48));
-            Validate.Attribute(repo.SnapXUntitled.GOButtonInfo, "Enabled", "True");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.GoToInitialState'.", repo.SnapXUntitled.GoToInitialStateInfo, new RecordItemIndex(49));
-            Validate.Attribute(repo.SnapXUntitled.GoToInitialStateInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='') on item 'SnapXUntitled.GoToInitialState'.", repo.SnapXUntitled.GoToInitialStateInfo, new RecordItemIndex(50));
-            Validate.Attribute(repo.SnapXUntitled.GoToInitialStateInfo, "Text", "");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.SetInitialState'.", repo.SnapXUntitled.SetInitialStateInfo, new RecordItemIndex(51));
-            Validate.Attribute(repo.SnapXUntitled.SetInitialStateInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='') on item 'SnapXUntitled.SetInitialState'.", repo.SnapXUntitled.SetInitialStateInfo, new RecordItemIndex(52));
-            Validate.Attribute(repo.SnapXUntitled.SetInitialStateInfo, "Text", "");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.NewRoutineButton'.", repo.SnapXUntitled.ToolBar59392.NewRoutineButtonInfo, new RecordItemIndex(53));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.NewRoutineButtonInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='New') on item 'SnapXUntitled.ToolBar59392.NewRoutineButton'.", repo.SnapXUntitled.ToolBar59392.NewRoutineButtonInfo, new RecordItemIndex(54));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.NewRoutineButtonInfo, "Text", "New");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.AutoIDSearch'.", repo.SnapXUntitled.ToolBar59392.AutoIDSearchInfo, new RecordItemIndex(55));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.AutoIDSearchInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='AutoID') on item 'SnapXUntitled.ToolBar59392.AutoIDSearch'.", repo.SnapXUntitled.ToolBar59392.AutoIDSearchInfo, new RecordItemIndex(56));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.AutoIDSearchInfo, "Text", "AutoID");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.OpenRoutine'.", repo.SnapXUntitled.ToolBar59392.OpenRoutineInfo, new RecordItemIndex(57));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.OpenRoutineInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Open') on item 'SnapXUntitled.ToolBar59392.OpenRoutine'.", repo.SnapXUntitled.ToolBar59392.OpenRoutineInfo, new RecordItemIndex(58));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.OpenRoutineInfo, "Text", "Open");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.AutoIDRun'.", repo.SnapXUntitled.ToolBar59392.AutoIDRunInfo, new RecordItemIndex(59));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.AutoIDRunInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='AutoID Run') on item 'SnapXUntitled.ToolBar59392.AutoIDRun'.", repo.SnapXUntitled.ToolBar59392.AutoIDRunInfo, new RecordItemIndex(60));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.AutoIDRunInfo, "Text", "AutoID Run");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.SwitchToFFW'.", repo.SnapXUntitled.ToolBar59392.SwitchToFFWInfo, new RecordItemIndex(61));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.SwitchToFFWInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.Xbutton'.", repo.SnapXUntitled.Container59649.XbuttonInfo, new RecordItemIndex(62));
-            Validate.Attribute(repo.SnapXUntitled.Container59649.XbuttonInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.Ybutton'.", repo.SnapXUntitled.Container59649.YbuttonInfo, new RecordItemIndex(63));
-            Validate.Attribute(repo.SnapXUntitled.Container59649.YbuttonInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.Zbutton'.", repo.SnapXUntitled.Container59649.ZbuttonInfo, new RecordItemIndex(64));
-            Validate.Attribute(repo.SnapXUntitled.Container59649.ZbuttonInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.Align'.", repo.SnapXUntitled.Container59649.AlignInfo, new RecordItemIndex(65));
-            Validate.Attribute(repo.SnapXUntitled.Container59649.AlignInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.MoveStage'.", repo.SnapXUntitled.Container59649.MoveStageInfo, new RecordItemIndex(66));
-            Validate.Attribute(repo.SnapXUntitled.Container59649.MoveStageInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.EnterButton'.", repo.SnapXUntitled.Container59649.EnterButtonInfo, new RecordItemIndex(67));
-            Validate.Attribute(repo.SnapXUntitled.Container59649.EnterButtonInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.StartStopButton'.", repo.SnapXUntitled.Container59649.StartStopButtonInfo, new RecordItemIndex(68));
-            Validate.Attribute(repo.SnapXUntitled.Container59649.StartStopButtonInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.Units'.", repo.SnapXUntitled.Container59649.UnitsInfo, new RecordItemIndex(69));
-            Validate.Attribute(repo.SnapXUntitled.Container59649.UnitsInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.CoordinateSystem'.", repo.SnapXUntitled.Container59649.CoordinateSystemInfo, new RecordItemIndex(70));
-            Validate.Attribute(repo.SnapXUntitled.Container59649.CoordinateSystemInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.SomeButton'.", repo.SnapXUntitled.SomeButtonInfo, new RecordItemIndex(71));
-            Validate.Attribute(repo.SnapXUntitled.SomeButtonInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.OpenImage'.", repo.SnapXUntitled.ToolBar59392.OpenImageInfo, new RecordItemIndex(72));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.OpenImageInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Open Image') on item 'SnapXUntitled.ToolBar59392.OpenImage'.", repo.SnapXUntitled.ToolBar59392.OpenImageInfo, new RecordItemIndex(73));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.OpenImageInfo, "Text", "Open Image");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.SaveImage'.", repo.SnapXUntitled.ToolBar59392.SaveImageInfo, new RecordItemIndex(74));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.SaveImageInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Save Image') on item 'SnapXUntitled.ToolBar59392.SaveImage'.", repo.SnapXUntitled.ToolBar59392.SaveImageInfo, new RecordItemIndex(75));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.SaveImageInfo, "Text", "Save Image");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.SaveImageAndTarget'.", repo.SnapXUntitled.ToolBar59392.SaveImageAndTargetInfo, new RecordItemIndex(76));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.SaveImageAndTargetInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Save Image and Target') on item 'SnapXUntitled.ToolBar59392.SaveImageAndTarget'.", repo.SnapXUntitled.ToolBar59392.SaveImageAndTargetInfo, new RecordItemIndex(77));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.SaveImageAndTargetInfo, "Text", "Save Image and Target");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.SaveFullScreen'.", repo.SnapXUntitled.ToolBar59392.SaveFullScreenInfo, new RecordItemIndex(78));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.SaveFullScreenInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Save Full Screen') on item 'SnapXUntitled.ToolBar59392.SaveFullScreen'.", repo.SnapXUntitled.ToolBar59392.SaveFullScreenInfo, new RecordItemIndex(79));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.SaveFullScreenInfo, "Text", "Save Full Screen");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.PrintImage'.", repo.SnapXUntitled.ToolBar59392.PrintImageInfo, new RecordItemIndex(80));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.PrintImageInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Print Image') on item 'SnapXUntitled.ToolBar59392.PrintImage'.", repo.SnapXUntitled.ToolBar59392.PrintImageInfo, new RecordItemIndex(81));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.PrintImageInfo, "Text", "Print Image");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.PrintImageAndTarget'.", repo.SnapXUntitled.ToolBar59392.PrintImageAndTargetInfo, new RecordItemIndex(82));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.PrintImageAndTargetInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Print Image and Target') on item 'SnapXUntitled.ToolBar59392.PrintImageAndTarget'.", repo.SnapXUntitled.ToolBar59392.PrintImageAndTargetInfo, new RecordItemIndex(83));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.PrintImageAndTargetInfo, "Text", "Print Image and Target");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.PrintFullScreen'.", repo.SnapXUntitled.ToolBar59392.PrintFullScreenInfo, new RecordItemIndex(84));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.PrintFullScreenInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Print Full Screen') on item 'SnapXUntitled.ToolBar59392.PrintFullScreen'.", repo.SnapXUntitled.ToolBar59392.PrintFullScreenInfo, new RecordItemIndex(85));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.PrintFullScreenInfo, "Text", "Print Full Screen");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.TargetColor'.", repo.SnapXUntitled.ToolBar59392.TargetColorInfo, new RecordItemIndex(86));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.TargetColorInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Target Color') on item 'SnapXUntitled.ToolBar59392.TargetColor'.", repo.SnapXUntitled.ToolBar59392.TargetColorInfo, new RecordItemIndex(87));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.TargetColorInfo, "Text", "Target Color");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.ZoomOut'.", repo.SnapXUntitled.ToolBar59392.ZoomOutInfo, new RecordItemIndex(88));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ZoomOutInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Zoom Out') on item 'SnapXUntitled.ToolBar59392.ZoomOut'.", repo.SnapXUntitled.ToolBar59392.ZoomOutInfo, new RecordItemIndex(89));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ZoomOutInfo, "Text", "Zoom Out");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.ButtonLow'.", repo.SnapXUntitled.ToolBar59392.ButtonLowInfo, new RecordItemIndex(90));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ButtonLowInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.High'.", repo.SnapXUntitled.ToolBar59392.HighInfo, new RecordItemIndex(91));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.HighInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.ZoomIn'.", repo.SnapXUntitled.ToolBar59392.ZoomInInfo, new RecordItemIndex(92));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ZoomInInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Zoom In') on item 'SnapXUntitled.ToolBar59392.ZoomIn'.", repo.SnapXUntitled.ToolBar59392.ZoomInInfo, new RecordItemIndex(93));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ZoomInInfo, "Text", "Zoom In");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.Text33212'.", repo.SnapXUntitled.ToolBar59392.Text33212Info, new RecordItemIndex(94));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.Text33212Info, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.ImageColor'.", repo.SnapXUntitled.ToolBar59392.ImageColorInfo, new RecordItemIndex(95));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ImageColorInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Image Color') on item 'SnapXUntitled.ToolBar59392.ImageColor'.", repo.SnapXUntitled.ToolBar59392.ImageColorInfo, new RecordItemIndex(96));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ImageColorInfo, "Text", "Image Color");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DisplayModelOverlay'.", repo.SnapXUntitled.ToolBar59392.DisplayModelOverlayInfo, new RecordItemIndex(97));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DisplayModelOverlayInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DisplayLabelsAll'.", repo.SnapXUntitled.ToolBar59392.DisplayLabelsAllInfo, new RecordItemIndex(98));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DisplayLabelsAllInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DisplayLabels'.", repo.SnapXUntitled.ToolBar59392.DisplayLabelsInfo, new RecordItemIndex(99));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DisplayLabelsInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DisplayLablesPrintSelected'.", repo.SnapXUntitled.ToolBar59392.DisplayLablesPrintSelectedInfo, new RecordItemIndex(100));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DisplayLablesPrintSelectedInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DisplayLabelsToleranced'.", repo.SnapXUntitled.ToolBar59392.DisplayLabelsTolerancedInfo, new RecordItemIndex(101));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DisplayLabelsTolerancedInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.Actuals'.", repo.SnapXUntitled.ToolBar59392.ActualsInfo, new RecordItemIndex(102));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ActualsInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.Nominals'.", repo.SnapXUntitled.ToolBar59392.NominalsInfo, new RecordItemIndex(103));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.NominalsInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.Points'.", repo.SnapXUntitled.ToolBar59392.PointsInfo, new RecordItemIndex(104));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.PointsInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.ShowCAD'.", repo.SnapXUntitled.ToolBar59392.ShowCADInfo, new RecordItemIndex(105));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ShowCADInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.ShowHiddenFeatures'.", repo.SnapXUntitled.ToolBar59392.ShowHiddenFeaturesInfo, new RecordItemIndex(106));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ShowHiddenFeaturesInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.FixtureMask'.", repo.SnapXUntitled.ToolBar59392.FixtureMaskInfo, new RecordItemIndex(107));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.FixtureMaskInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.CreateFixtureMask'.", repo.SnapXUntitled.ToolBar59392.CreateFixtureMaskInfo, new RecordItemIndex(108));
-            Validate.Attribute(repo.SnapXUntitled.ToolBar59392.CreateFixtureMaskInfo, "Enabled", "True");
-            Delay.Milliseconds(100);
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593921.Contour'.", repo.SnapXUntitled.ToolBar593921.ContourInfo, new RecordItemIndex(17));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593921.ContourInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(17)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593921.StrongEdge'.", repo.SnapXUntitled.ToolBar593921.StrongEdgeInfo, new RecordItemIndex(18));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593921.StrongEdgeInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(18)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593921.Centroid'.", repo.SnapXUntitled.ToolBar593921.CentroidInfo, new RecordItemIndex(19));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593921.CentroidInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(19)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593921.AdvancedCentroid'.", repo.SnapXUntitled.ToolBar593921.AdvancedCentroidInfo, new RecordItemIndex(20));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593921.AdvancedCentroidInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(20)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasurePoint'.", repo.SnapXUntitled.ToolBar593922.MeasurePointInfo, new RecordItemIndex(21));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasurePointInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(21)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureLine'.", repo.SnapXUntitled.ToolBar593922.MeasureLineInfo, new RecordItemIndex(22));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureLineInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(22)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureCircle'.", repo.SnapXUntitled.ToolBar593922.MeasureCircleInfo, new RecordItemIndex(23));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureCircleInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(23)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureMidpoint'.", repo.SnapXUntitled.ToolBar593922.MeasureMidpointInfo, new RecordItemIndex(24));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureMidpointInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(24)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureDistance'.", repo.SnapXUntitled.ToolBar593922.MeasureDistanceInfo, new RecordItemIndex(25));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureDistanceInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(25)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureCentroid'.", repo.SnapXUntitled.ToolBar593922.MeasureCentroidInfo, new RecordItemIndex(26));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureCentroidInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(26)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureCentroid'.", repo.SnapXUntitled.ToolBar593922.MeasureCentroidInfo, new RecordItemIndex(27));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureCentroidInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(27)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureContour'.", repo.SnapXUntitled.ToolBar593922.MeasureContourInfo, new RecordItemIndex(28));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureContourInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(28)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593922.MeasureMinMaxAvg'.", repo.SnapXUntitled.ToolBar593922.MeasureMinMaxAvgInfo, new RecordItemIndex(29));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593922.MeasureMinMaxAvgInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(29)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructIntersection'.", repo.SnapXUntitled.ToolBar593923.ConstructIntersectionInfo, new RecordItemIndex(30));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructIntersectionInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(30)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructWidth'.", repo.SnapXUntitled.ToolBar593923.ConstructWidthInfo, new RecordItemIndex(31));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructWidthInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(31)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructCircle'.", repo.SnapXUntitled.ToolBar593923.ConstructCircleInfo, new RecordItemIndex(32));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructCircleInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(32)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructPoint'.", repo.SnapXUntitled.ToolBar593923.ConstructPointInfo, new RecordItemIndex(33));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructPointInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(33)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructLine'.", repo.SnapXUntitled.ToolBar593923.ConstructLineInfo, new RecordItemIndex(34));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructLineInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(34)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructDistance'.", repo.SnapXUntitled.ToolBar593923.ConstructDistanceInfo, new RecordItemIndex(35));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructDistanceInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(35)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructMidpoint'.", repo.SnapXUntitled.ToolBar593923.ConstructMidpointInfo, new RecordItemIndex(36));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructMidpointInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(36)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructUserInput'.", repo.SnapXUntitled.ToolBar593923.ConstructUserInputInfo, new RecordItemIndex(37));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructUserInputInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(37)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructMath'.", repo.SnapXUntitled.ToolBar593923.ConstructMathInfo, new RecordItemIndex(38));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructMathInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(38)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructBranch'.", repo.SnapXUntitled.ToolBar593923.ConstructBranchInfo, new RecordItemIndex(39));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructBranchInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(39)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructMinMaxAvg'.", repo.SnapXUntitled.ToolBar593923.ConstructMinMaxAvgInfo, new RecordItemIndex(40));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructMinMaxAvgInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(40)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructContour'.", repo.SnapXUntitled.ToolBar593923.ConstructContourInfo, new RecordItemIndex(41));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructContourInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(41)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructGageB_all'.", repo.SnapXUntitled.ToolBar593923.ConstructGageB_allInfo, new RecordItemIndex(42));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructGageB_allInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(42)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar593923.ConstructGageDiameter'.", repo.SnapXUntitled.ToolBar593923.ConstructGageDiameterInfo, new RecordItemIndex(43));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar593923.ConstructGageDiameterInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(43)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DatumOrigin'.", repo.SnapXUntitled.ToolBar59392.DatumOriginInfo, new RecordItemIndex(44));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DatumOriginInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(44)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DatumAlign'.", repo.SnapXUntitled.ToolBar59392.DatumAlignInfo, new RecordItemIndex(45));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DatumAlignInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(45)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DatumRecall'.", repo.SnapXUntitled.ToolBar59392.DatumRecallInfo, new RecordItemIndex(46));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DatumRecallInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(46)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.AutoCorrelation'.", repo.SnapXUntitled.ToolBar59392.AutoCorrelationInfo, new RecordItemIndex(47));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.AutoCorrelationInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(47)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.GOButton'.", repo.SnapXUntitled.GOButtonInfo, new RecordItemIndex(48));
+                Validate.Attribute(repo.SnapXUntitled.GOButtonInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(48)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.GoToInitialState'.", repo.SnapXUntitled.GoToInitialStateInfo, new RecordItemIndex(49));
+                Validate.Attribute(repo.SnapXUntitled.GoToInitialStateInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(49)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='') on item 'SnapXUntitled.GoToInitialState'.", repo.SnapXUntitled.GoToInitialStateInfo, new RecordItemIndex(50));
+                Validate.Attribute(repo.SnapXUntitled.GoToInitialStateInfo, "Text", "", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(50)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.SetInitialState'.", repo.SnapXUntitled.SetInitialStateInfo, new RecordItemIndex(51));
+                Validate.Attribute(repo.SnapXUntitled.SetInitialStateInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(51)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='') on item 'SnapXUntitled.SetInitialState'.", repo.SnapXUntitled.SetInitialStateInfo, new RecordItemIndex(52));
+                Validate.Attribute(repo.SnapXUntitled.SetInitialStateInfo, "Text", "", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(52)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.NewRoutineButton'.", repo.SnapXUntitled.ToolBar59392.NewRoutineButtonInfo, new RecordItemIndex(53));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.NewRoutineButtonInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(53)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='New') on item 'SnapXUntitled.ToolBar59392.NewRoutineButton'.", repo.SnapXUntitled.ToolBar59392.NewRoutineButtonInfo, new RecordItemIndex(54));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.NewRoutineButtonInfo, "Text", "New", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(54)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.AutoIDSearch'.", repo.SnapXUntitled.ToolBar59392.AutoIDSearchInfo, new RecordItemIndex(55));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.AutoIDSearchInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(55)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='AutoID') on item 'SnapXUntitled.ToolBar59392.AutoIDSearch'.", repo.SnapXUntitled.ToolBar59392.AutoIDSearchInfo, new RecordItemIndex(56));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.AutoIDSearchInfo, "Text", "AutoID", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(56)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.OpenRoutine'.", repo.SnapXUntitled.ToolBar59392.OpenRoutineInfo, new RecordItemIndex(57));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.OpenRoutineInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(57)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='Open') on item 'SnapXUntitled.ToolBar59392.OpenRoutine'.", repo.SnapXUntitled.ToolBar59392.OpenRoutineInfo, new RecordItemIndex(58));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.OpenRoutineInfo, "Text", "Open", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(58)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.AutoIDRun'.", repo.SnapXUntitled.ToolBar59392.AutoIDRunInfo, new RecordItemIndex(59));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.AutoIDRunInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(59)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='AutoID Run') on item 'SnapXUntitled.ToolBar59392.AutoIDRun'.", repo.SnapXUntitled.ToolBar59392.AutoIDRunInfo, new RecordItemIndex(60));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.AutoIDRunInfo, "Text", "AutoID Run", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(60)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.SwitchToFFW'.", repo.SnapXUntitled.ToolBar59392.SwitchToFFWInfo, new RecordItemIndex(61));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.SwitchToFFWInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(61)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.Xbutton'.", repo.SnapXUntitled.Container59649.XbuttonInfo, new RecordItemIndex(62));
+                Validate.Attribute(repo.SnapXUntitled.Container59649.XbuttonInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(62)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.Ybutton'.", repo.SnapXUntitled.Container59649.YbuttonInfo, new RecordItemIndex(63));
+                Validate.Attribute(repo.SnapXUntitled.Container59649.YbuttonInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(63)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.Zbutton'.", repo.SnapXUntitled.Container59649.ZbuttonInfo, new RecordItemIndex(64));
+                Validate.Attribute(repo.SnapXUntitled.Container59649.ZbuttonInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(64)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.Align'.", repo.SnapXUntitled.Container59649.AlignInfo, new RecordItemIndex(65));
+                Validate.Attribute(repo.SnapXUntitled.Container59649.AlignInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(65)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.MoveStage'.", repo.SnapXUntitled.Container59649.MoveStageInfo, new RecordItemIndex(66));
+                Validate.Attribute(repo.SnapXUntitled.Container59649.MoveStageInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(66)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.EnterButton'.", repo.SnapXUntitled.Container59649.EnterButtonInfo, new RecordItemIndex(67));
+                Validate.Attribute(repo.SnapXUntitled.Container59649.EnterButtonInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(67)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.StartStopButton'.", repo.SnapXUntitled.Container59649.StartStopButtonInfo, new RecordItemIndex(68));
+                Validate.Attribute(repo.SnapXUntitled.Container59649.StartStopButtonInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(68)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.Units'.", repo.SnapXUntitled.Container59649.UnitsInfo, new RecordItemIndex(69));
+                Validate.Attribute(repo.SnapXUntitled.Container59649.UnitsInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(69)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.Container59649.CoordinateSystem'.", repo.SnapXUntitled.Container59649.CoordinateSystemInfo, new RecordItemIndex(70));
+                Validate.Attribute(repo.SnapXUntitled.Container59649.CoordinateSystemInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(70)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.SomeButton'.", repo.SnapXUntitled.SomeButtonInfo, new RecordItemIndex(71));
+                Validate.Attribute(repo.SnapXUntitled.SomeButtonInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(71)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.OpenImage'.", repo.SnapXUntitled.ToolBar59392.OpenImageInfo, new RecordItemIndex(72));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.OpenImageInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(72)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='Open Image') on item 'SnapXUntitled.ToolBar59392.OpenImage'.", repo.SnapXUntitled.ToolBar59392.OpenImageInfo, new RecordItemIndex(73));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.OpenImageInfo, "Text", "Open Image", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(73)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.SaveImage'.", repo.SnapXUntitled.ToolBar59392.SaveImageInfo, new RecordItemIndex(74));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.SaveImageInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(74)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='Save Image') on item 'SnapXUntitled.ToolBar59392.SaveImage'.", repo.SnapXUntitled.ToolBar59392.SaveImageInfo, new RecordItemIndex(75));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.SaveImageInfo, "Text", "Save Image", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(75)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.SaveImageAndTarget'.", repo.SnapXUntitled.ToolBar59392.SaveImageAndTargetInfo, new RecordItemIndex(76));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.SaveImageAndTargetInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(76)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='Save Image and Target') on item 'SnapXUntitled.ToolBar59392.SaveImageAndTarget'.", repo.SnapXUntitled.ToolBar59392.SaveImageAndTargetInfo, new RecordItemIndex(77));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.SaveImageAndTargetInfo, "Text", "Save Image and Target", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(77)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.SaveFullScreen'.", repo.SnapXUntitled.ToolBar59392.SaveFullScreenInfo, new RecordItemIndex(78));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.SaveFullScreenInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(78)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='Save Full Screen') on item 'SnapXUntitled.ToolBar59392.SaveFullScreen'.", repo.SnapXUntitled.ToolBar59392.SaveFullScreenInfo, new RecordItemIndex(79));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.SaveFullScreenInfo, "Text", "Save Full Screen", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(79)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.PrintImage'.", repo.SnapXUntitled.ToolBar59392.PrintImageInfo, new RecordItemIndex(80));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.PrintImageInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(80)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='Print Image') on item 'SnapXUntitled.ToolBar59392.PrintImage'.", repo.SnapXUntitled.ToolBar59392.PrintImageInfo, new RecordItemIndex(81));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.PrintImageInfo, "Text", "Print Image", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(81)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.PrintImageAndTarget'.", repo.SnapXUntitled.ToolBar59392.PrintImageAndTargetInfo, new RecordItemIndex(82));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.PrintImageAndTargetInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(82)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='Print Image and Target') on item 'SnapXUntitled.ToolBar59392.PrintImageAndTarget'.", repo.SnapXUntitled.ToolBar59392.PrintImageAndTargetInfo, new RecordItemIndex(83));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.PrintImageAndTargetInfo, "Text", "Print Image and Target", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(83)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.PrintFullScreen'.", repo.SnapXUntitled.ToolBar59392.PrintFullScreenInfo, new RecordItemIndex(84));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.PrintFullScreenInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(84)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='Print Full Screen') on item 'SnapXUntitled.ToolBar59392.PrintFullScreen'.", repo.SnapXUntitled.ToolBar59392.PrintFullScreenInfo, new RecordItemIndex(85));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.PrintFullScreenInfo, "Text", "Print Full Screen", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(85)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.TargetColor'.", repo.SnapXUntitled.ToolBar59392.TargetColorInfo, new RecordItemIndex(86));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.TargetColorInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(86)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='Target Color') on item 'SnapXUntitled.ToolBar59392.TargetColor'.", repo.SnapXUntitled.ToolBar59392.TargetColorInfo, new RecordItemIndex(87));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.TargetColorInfo, "Text", "Target Color", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(87)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.ZoomOut'.", repo.SnapXUntitled.ToolBar59392.ZoomOutInfo, new RecordItemIndex(88));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ZoomOutInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(88)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='Zoom Out') on item 'SnapXUntitled.ToolBar59392.ZoomOut'.", repo.SnapXUntitled.ToolBar59392.ZoomOutInfo, new RecordItemIndex(89));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ZoomOutInfo, "Text", "Zoom Out", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(89)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.ButtonLow'.", repo.SnapXUntitled.ToolBar59392.ButtonLowInfo, new RecordItemIndex(90));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ButtonLowInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(90)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.High'.", repo.SnapXUntitled.ToolBar59392.HighInfo, new RecordItemIndex(91));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.HighInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(91)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.ZoomIn'.", repo.SnapXUntitled.ToolBar59392.ZoomInInfo, new RecordItemIndex(92));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ZoomInInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(92)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='Zoom In') on item 'SnapXUntitled.ToolBar59392.ZoomIn'.", repo.SnapXUntitled.ToolBar59392.ZoomInInfo, new RecordItemIndex(93));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ZoomInInfo, "Text", "Zoom In", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(93)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.Text33212'.", repo.SnapXUntitled.ToolBar59392.Text33212Info, new RecordItemIndex(94));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.Text33212Info, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(94)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.ImageColor'.", repo.SnapXUntitled.ToolBar59392.ImageColorInfo, new RecordItemIndex(95));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ImageColorInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(95)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Text='Image Color') on item 'SnapXUntitled.ToolBar59392.ImageColor'.", repo.SnapXUntitled.ToolBar59392.ImageColorInfo, new RecordItemIndex(96));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ImageColorInfo, "Text", "Image Color", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(96)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DisplayModelOverlay'.", repo.SnapXUntitled.ToolBar59392.DisplayModelOverlayInfo, new RecordItemIndex(97));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DisplayModelOverlayInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(97)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DisplayLabelsAll'.", repo.SnapXUntitled.ToolBar59392.DisplayLabelsAllInfo, new RecordItemIndex(98));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DisplayLabelsAllInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(98)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DisplayLabels'.", repo.SnapXUntitled.ToolBar59392.DisplayLabelsInfo, new RecordItemIndex(99));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DisplayLabelsInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(99)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DisplayLablesPrintSelected'.", repo.SnapXUntitled.ToolBar59392.DisplayLablesPrintSelectedInfo, new RecordItemIndex(100));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DisplayLablesPrintSelectedInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(100)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.DisplayLabelsToleranced'.", repo.SnapXUntitled.ToolBar59392.DisplayLabelsTolerancedInfo, new RecordItemIndex(101));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.DisplayLabelsTolerancedInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(101)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.Actuals'.", repo.SnapXUntitled.ToolBar59392.ActualsInfo, new RecordItemIndex(102));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ActualsInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(102)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.Nominals'.", repo.SnapXUntitled.ToolBar59392.NominalsInfo, new RecordItemIndex(103));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.NominalsInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(103)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.Points'.", repo.SnapXUntitled.ToolBar59392.PointsInfo, new RecordItemIndex(104));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.PointsInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(104)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.ShowCAD'.", repo.SnapXUntitled.ToolBar59392.ShowCADInfo, new RecordItemIndex(105));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ShowCADInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(105)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.ShowHiddenFeatures'.", repo.SnapXUntitled.ToolBar59392.ShowHiddenFeaturesInfo, new RecordItemIndex(106));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.ShowHiddenFeaturesInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(106)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.FixtureMask'.", repo.SnapXUntitled.ToolBar59392.FixtureMaskInfo, new RecordItemIndex(107));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.FixtureMaskInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(107)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (Enabled='True') on item 'SnapXUntitled.ToolBar59392.CreateFixtureMask'.", repo.SnapXUntitled.ToolBar59392.CreateFixtureMaskInfo, new RecordItemIndex(108));
+                Validate.Attribute(repo.SnapXUntitled.ToolBar59392.CreateFixtureMaskInfo, "Enabled", "True", Validate.DefaultMessage, false);
+                Delay.Milliseconds(100);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(108)); }
             
         }
 
