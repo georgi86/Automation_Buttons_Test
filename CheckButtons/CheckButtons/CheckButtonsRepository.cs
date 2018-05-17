@@ -90,11 +90,13 @@ namespace CheckButtons
             CheckButtonsRepositoryFolders.ToolBar593922Folder _toolbar593922;
             CheckButtonsRepositoryFolders.ToolBar593923Folder _toolbar593923;
             CheckButtonsRepositoryFolders.Container59649Folder _container59649;
+            RepoItemInfo _titlebarInfo;
+            RepoItemInfo _measuretextInfo;
+            RepoItemInfo _switchtosensorInfo;
             RepoItemInfo _gobuttonInfo;
             RepoItemInfo _gotoinitialstateInfo;
             RepoItemInfo _setinitialstateInfo;
             RepoItemInfo _somebuttonInfo;
-            RepoItemInfo _snapxuntitledInfo;
 
             /// <summary>
             /// Creates a new SnapXUntitled  folder.
@@ -107,11 +109,13 @@ namespace CheckButtons
                 _toolbar593922 = new CheckButtonsRepositoryFolders.ToolBar593922Folder(this);
                 _toolbar593923 = new CheckButtonsRepositoryFolders.ToolBar593923Folder(this);
                 _container59649 = new CheckButtonsRepositoryFolders.Container59649Folder(this);
+                _titlebarInfo = new RepoItemInfo(this, "TitleBar", "element[@controlid='94']", 30000, null, "8c43b0dc-e842-4c2e-ba24-475c6307f3fc");
+                _measuretextInfo = new RepoItemInfo(this, "MeasureText", "container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']", 30000, null, "9206a883-1c07-40a3-a6bf-bd7915659e46");
+                _switchtosensorInfo = new RepoItemInfo(this, "SwitchToSensor", "container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='40029']", 30000, null, "6ea261bd-7461-4360-9938-c9383d47177d");
                 _gobuttonInfo = new RepoItemInfo(this, "GOButton", "container/form//element/container/button[@controlid='3167']", 30000, null, "b2786b3e-dfa8-4e09-91b2-cde61475125b");
                 _gotoinitialstateInfo = new RepoItemInfo(this, "GoToInitialState", "container/form//button[@controlid='4232']", 30000, null, "f1e81995-a6dd-41a7-b6f7-2206ab9ee7c3");
                 _setinitialstateInfo = new RepoItemInfo(this, "SetInitialState", "container/form//button[@controlid='1479']", 30000, null, "8db8d9fb-eacc-4fca-854c-505986cae479");
                 _somebuttonInfo = new RepoItemInfo(this, "SomeButton", "container/form//element/container/button[@text='>>']", 30000, null, "a4b21578-6caf-4243-823b-99e4f67c9779");
-                _snapxuntitledInfo = new RepoItemInfo(this, "SnapXUntitled", "titlebar[@accessiblerole='TitleBar']", 30000, null, "c0bef1e3-7f69-4c91-93a9-08d987b00ede");
             }
 
             /// <summary>
@@ -135,6 +139,78 @@ namespace CheckButtons
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TitleBar item.
+            /// </summary>
+            [RepositoryItem("8c43b0dc-e842-4c2e-ba24-475c6307f3fc")]
+            public virtual Ranorex.Unknown TitleBar
+            {
+                get
+                {
+                    return _titlebarInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TitleBar item info.
+            /// </summary>
+            [RepositoryItemInfo("8c43b0dc-e842-4c2e-ba24-475c6307f3fc")]
+            public virtual RepoItemInfo TitleBarInfo
+            {
+                get
+                {
+                    return _titlebarInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MeasureText item.
+            /// </summary>
+            [RepositoryItem("9206a883-1c07-40a3-a6bf-bd7915659e46")]
+            public virtual Ranorex.Text MeasureText
+            {
+                get
+                {
+                    return _measuretextInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MeasureText item info.
+            /// </summary>
+            [RepositoryItemInfo("9206a883-1c07-40a3-a6bf-bd7915659e46")]
+            public virtual RepoItemInfo MeasureTextInfo
+            {
+                get
+                {
+                    return _measuretextInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SwitchToSensor item.
+            /// </summary>
+            [RepositoryItem("6ea261bd-7461-4360-9938-c9383d47177d")]
+            public virtual Ranorex.Button SwitchToSensor
+            {
+                get
+                {
+                    return _switchtosensorInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SwitchToSensor item info.
+            /// </summary>
+            [RepositoryItemInfo("6ea261bd-7461-4360-9938-c9383d47177d")]
+            public virtual RepoItemInfo SwitchToSensorInfo
+            {
+                get
+                {
+                    return _switchtosensorInfo;
                 }
             }
 
@@ -231,30 +307,6 @@ namespace CheckButtons
                 get
                 {
                     return _somebuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SnapXUntitled item.
-            /// </summary>
-            [RepositoryItem("c0bef1e3-7f69-4c91-93a9-08d987b00ede")]
-            public virtual Ranorex.TitleBar SnapXUntitled
-            {
-                get
-                {
-                    return _snapxuntitledInfo.CreateAdapter<Ranorex.TitleBar>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SnapXUntitled item info.
-            /// </summary>
-            [RepositoryItemInfo("c0bef1e3-7f69-4c91-93a9-08d987b00ede")]
-            public virtual RepoItemInfo SnapXUntitledInfo
-            {
-                get
-                {
-                    return _snapxuntitledInfo;
                 }
             }
 

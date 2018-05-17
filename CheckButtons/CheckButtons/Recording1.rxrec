@@ -37,59 +37,96 @@ rxversion="7.0">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
+		searchpropertyid="37e67371-278e-4b24-8c2c-d297b11b2050"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9206a883-1c07-40a3-a6bf-bd7915659e46"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
 		searchpropertyid="ca04948b-883c-42d9-93a8-6294aa119589"
 		sx="968"
 		sy="11"
 		warnoutofbounds="False">
 			<comment>
-				Just to open the SW
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="c0bef1e3-7f69-4c91-93a9-08d987b00ede"
+			id="8c43b0dc-e842-4c2e-ba24-475c6307f3fc"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Snap-X - [Untitled]']/element[@controlid='94']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2f668543-3107-487f-957b-c8f8fa0d58ad"
+		sx="1892"
+		sy="66"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6ea261bd-7461-4360-9938-c9383d47177d"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="accessible"
+				capabilities="nativeitem, checkable"
 				dontcache="False"
 				enabled="True"
-				flavor="msaa"
+				flavor="win32"
 				hasfocus="False"
-				index="3"
-				prefcap="titlebar"
-				rect="16,0,1904,22"
-				role="titlebar"
+				index="25"
+				prefcap="button"
+				rect="1877,51,31,31"
+				role="button"
 				snapElem=""
 				valid="True"
 				visible="True">
 					<attribute
-					name="text"
-					type="System.String">
-						Snap-X - [Untitled]
+					name="pressed"
+					type="System.Boolean">
+						False
 					</attribute>
 					<attribute
-					name="accessibledescription"
-					type="System.String">
-						Displays the name of the window and contains controls to manipulate it
+					name="commandid"
+					type="System.Int32">
+						40029
 					</attribute>
 					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						TitleBar
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Focusable
-					</attribute>
-					<attribute
-					name="accessiblevalue"
-					type="System.String">
-						Snap-X - [Untitled]
+					name="checked"
+					type="System.Boolean">
+						False
 					</attribute>
 				</element>
 				<path>
-					/form[@title='Snap-X - [Untitled]']/titlebar[@accessiblerole='TitleBar']
+					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='40029']
 				</path>
 			</info>
 		</mouseitem>

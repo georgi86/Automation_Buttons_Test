@@ -22,6 +22,35 @@ rxversion="7.0">
 		refpath="/form[@title='Snap-X - [Untitled]']"
 		searchtimeout="30000ms"
 		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="8c43b0dc-e842-4c2e-ba24-475c6307f3fc"
+			name="TitleBar"
+			refimgid="7aabdd55-573a-42f7-ba0f-e923a3567759"
+			refpath="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/element[@controlid='94']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="9206a883-1c07-40a3-a6bf-bd7915659e46"
+			name="MeasureText"
+			refimgid="5db14e79-2f38-4ed2-9006-f87ab30858b7"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="6ea261bd-7461-4360-9938-c9383d47177d"
+			name="SwitchToSensor"
+			refimgid="07e165a1-3b0e-47f4-b137-45ab3f737bbd"
+			refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65280' and @title='Untitled' and @class='AfxFrameOrView140']/element[@controlid='59748']/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']/button[@commandid='40029']
+			</item>
 			<folder
 			addcaps="toolbar,nativewindow"
 			capname="toolbar"
@@ -775,42 +804,6 @@ rxversion="7.0">
 					/form[@title='Snap-X - [Untitled]']/container/form//toolbar[@class='ToolbarWindow32']
 				</basepath>
 			</folder>
-			<item
-			addcaps="button,nativewindow"
-			capname="button"
-			id="b2786b3e-dfa8-4e09-91b2-cde61475125b"
-			name="GOButton"
-			refimgid="5a2c39fa-6efb-43cf-b06e-9d01668670f5"
-			searchtimeout="30000ms">
-				/form[@title='Snap-X - [Untitled]']/container/form//element/container/button[@controlid='3167']
-			</item>
-			<item
-			addcaps="button,nativewindow"
-			capname="button"
-			id="f1e81995-a6dd-41a7-b6f7-2206ab9ee7c3"
-			name="GoToInitialState"
-			refimgid="aae5286a-ede7-4441-95b0-76d18ed476ac"
-			searchtimeout="30000ms">
-				/form[@title='Snap-X - [Untitled]']/container/form//button[@controlid='4232']
-			</item>
-			<item
-			addcaps="button,nativewindow"
-			capname="button"
-			id="8db8d9fb-eacc-4fca-854c-505986cae479"
-			name="SetInitialState"
-			refimgid="8024effc-d71d-4952-a92e-50b063d38ca5"
-			searchtimeout="30000ms">
-				/form[@title='Snap-X - [Untitled]']/container/form//button[@controlid='1479']
-			</item>
-			<item
-			addcaps="button,nativewindow"
-			capname="button"
-			id="a4b21578-6caf-4243-823b-99e4f67c9779"
-			name="SomeButton"
-			refimgid="68820979-dd0e-4533-8341-9488feeed0f9"
-			searchtimeout="30000ms">
-				/form[@title='Snap-X - [Untitled]']/container/form//element/container/button[@text='&gt;&gt;']
-			</item>
 			<folder
 			addcaps="container,nativewindow"
 			capname="container"
@@ -905,14 +898,40 @@ rxversion="7.0">
 				</basepath>
 			</folder>
 			<item
-			addcaps="titlebar,accessible"
-			capname="titlebar"
-			id="c0bef1e3-7f69-4c91-93a9-08d987b00ede"
-			name="SnapXUntitled"
-			refimgid="79491187-eac7-4826-9aa1-dbdd6f04fac0"
-			refpath="/form[@title='Snap-X - [Untitled]']/titlebar[@accessiblerole='TitleBar']"
+			addcaps="button,nativewindow"
+			capname="button"
+			id="b2786b3e-dfa8-4e09-91b2-cde61475125b"
+			name="GOButton"
+			refimgid="5a2c39fa-6efb-43cf-b06e-9d01668670f5"
 			searchtimeout="30000ms">
-				/form[@title='Snap-X - [Untitled]']/titlebar[@accessiblerole='TitleBar']
+				/form[@title='Snap-X - [Untitled]']/container/form//element/container/button[@controlid='3167']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="f1e81995-a6dd-41a7-b6f7-2206ab9ee7c3"
+			name="GoToInitialState"
+			refimgid="aae5286a-ede7-4441-95b0-76d18ed476ac"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container/form//button[@controlid='4232']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="8db8d9fb-eacc-4fca-854c-505986cae479"
+			name="SetInitialState"
+			refimgid="8024effc-d71d-4952-a92e-50b063d38ca5"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container/form//button[@controlid='1479']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="a4b21578-6caf-4243-823b-99e4f67c9779"
+			name="SomeButton"
+			refimgid="68820979-dd0e-4533-8341-9488feeed0f9"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container/form//element/container/button[@text='&gt;&gt;']
 			</item>
 			<basepath>
 				/form[@title='Snap-X - [Untitled]']
