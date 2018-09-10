@@ -102,7 +102,7 @@ namespace CheckButtons
             /// Creates a new SnapXUntitled  folder.
             /// </summary>
             public SnapXUntitledAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SnapXUntitled", "/form[@title='Snap-X - [Untitled]']", parentFolder, 30000, null, true, "73c97277-1b23-4dcf-8410-23c795886148", "")
+                    base("SNAPXUntitled", "/form[@title='SNAP-X - [Untitled]']", parentFolder, 30000, null, true, "73c97277-1b23-4dcf-8410-23c795886148", "")
             {
                 _toolbar59392 = new CheckButtonsRepositoryFolders.ToolBar59392Folder(this);
                 _toolbar593921 = new CheckButtonsRepositoryFolders.ToolBar593921Folder(this);
